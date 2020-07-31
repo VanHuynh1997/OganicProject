@@ -1,0 +1,121 @@
+.header__top{
+    background-color:#f8f9fa;
+}
+
+.header__top__left-list{
+    padding-left: 0;
+}
+.header__top__left{
+    padding: 10px 0 10px;
+}
+/*.header__top__left-list{
+    display: flex;
+    
+}*/
+.header__top__left-list li{
+    list-style: none;
+    font-size: 14px;
+    display: inline-block;
+
+}
+.header__top__left-list-1{
+    margin-right: 40px;
+    position: relative;
+
+}
+.header__top__left-list-1 i{
+    margin-right: 5px;
+}
+.header__top__left-list-1::after{
+    content: "";
+    position: absolute;
+    top:4px;
+    right: -20px;
+    width: 1px;
+    height: 16px;
+    background-color:#6c757d;
+}
+
+.header__top__right{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0 10px;
+}
+.header__top__right-social{
+    margin-right: 35px;
+    position: relative;
+
+}
+.header__top__right-social::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 16px;
+    top: 6px;
+    right: -14px;
+    background-color:#6c757d;
+}
+.header__top__right-social a{
+    margin-right: 10px;
+}
+.header__top__right-social a i{
+    color: black;
+    font-size: 14px;
+}
+.header__top__right-langues{
+    margin-right: 35px;
+    position: relative;
+    
+}
+.header__top__right-langues::after{
+    content: "";
+    position: absolute;
+    top:6px;
+    right: -14px;
+    height: 16px;
+    width: 1px;
+    background-color:#6c757d;
+
+}
+.header__top__right-langues img{
+    font-size: 14px;
+    margin-right: 4px;
+}
+.header__top__right-langues span{
+    font-size: 14px;
+    margin-right: 4px;
+}
+.header__top__right-langues-list{
+    position: absolute;
+    right: 0;
+    top:100%;
+    background-color: black;
+    padding-left: 0;
+    width: 97px;
+    display: none;
+    -webkit-transition: all, 0.3s;
+    transition: all 0.3s;
+}
+.header__top__right-langues-list li{
+    list-style: none;
+    
+}
+.header__top__right-langues-list li a{
+    font-size: 12px;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+}
+.header__top__right-langues:hover .header__top__right-langues-list{
+    display: block;
+    
+}
+.header__top__right-login a{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+.header__top__right-login a i{
+    margin-right: 4px;
+}
